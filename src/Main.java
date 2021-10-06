@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		
-		
+		//Treads
 		
 		MinhaThread mT1 = new MinhaThread(1, 9999);
 		MinhaThread mT2 = new MinhaThread(2, 9999);
@@ -21,6 +21,8 @@ public class Main {
 		System.out.println("\nMain");
 	}
 }
+
+		//Class
 class MinhaThread extends Thread {
 	static volatile int id = 0, limite = 0;
 	MinhaThread(int novoId, int novoLimite) {
